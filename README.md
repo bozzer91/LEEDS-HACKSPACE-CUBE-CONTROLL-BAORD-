@@ -12,6 +12,7 @@ THIS WILL HOPFULLY HELP STOP AND ISSUES WITH ANY NOISE ON THE POWER RAILS
 THE PCB LAYOUT( WORK IN PROGRESS)
 <img width="1148" height="632" alt="image" src="https://github.com/user-attachments/assets/0d93c348-367d-49d9-9c0b-a839852f3dbf" />
 PCB 3d render( work in progress )
+
 <img width="589" height="361" alt="image" src="https://github.com/user-attachments/assets/db3f9b39-870b-49e6-b611-4cecf2b246ea" />
 
 
