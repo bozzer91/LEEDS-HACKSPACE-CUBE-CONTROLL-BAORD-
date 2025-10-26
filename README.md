@@ -10,7 +10,8 @@ I HAVE ALSO ADDED OPTIONAL SMOOTH CAPS ON THE POWER LINES TO THE LOGIC LEVEL CON
 THIS WILL HOPFULLY HELP STOP AND ISSUES WITH ANY NOISE ON THE POWER RAILS 
 
 THE PCB LAYOUT WORK IN PROGRESS
-<img width="391" height="45" alt="image" src="https://github.com/user-attachments/assets/448db1f2-7dd2-4c13-b183-86b089722a8f" />
+<img width="1148" height="632" alt="image" src="https://github.com/user-attachments/assets/0d93c348-367d-49d9-9c0b-a839852f3dbf" />
+
 
 
 BIG CUBE 
