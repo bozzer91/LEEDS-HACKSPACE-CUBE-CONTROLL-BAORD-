@@ -147,7 +147,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x08"
+		(symbol "Connector_Generic:Conn_01x09"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -156,14 +156,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 10.16 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x08"
+			(property "Value" "Conn_01x09"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -189,7 +189,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -216,9 +216,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x08_1_1"
+			(symbol "Conn_01x09_1_1"
 				(rectangle
-					(start -1.27 8.89)
+					(start -1.27 11.43)
 					(end 1.27 -11.43)
 					(stroke
 						(width 0.254)
@@ -226,6 +226,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -317,7 +328,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -335,7 +346,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -353,7 +364,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -371,7 +382,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -389,7 +400,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -407,7 +418,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -425,7 +436,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -443,7 +454,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -453,6 +464,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2955,7 +2984,7 @@
 		)
 		(uuid "619d7e09-4339-44b2-979b-5b8879f6884f")
 	)
-	(text "1.2\n"
+	(text "1.3\n"
 		(exclude_from_sim no)
 		(at 270.256 193.294 0)
 		(effects
@@ -6201,7 +6230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 145.7452 41.91 0)
 			(effects
 				(font
@@ -6347,7 +6376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 131.7752 41.91 0)
 			(effects
 				(font
@@ -6417,7 +6446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 24.892 163.83 90)
 			(effects
 				(font
@@ -6487,7 +6516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 45.212 163.83 90)
 			(effects
 				(font
@@ -6557,7 +6586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 51.562 26.67 90)
 			(effects
 				(font
@@ -6876,94 +6905,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 162.56 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c446948-80bd-477a-a659-188d8b3158ce")
-		(property "Reference" "J1"
-			(at 165.1 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08 ( conector 1)"
-			(at 165.1 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "80a5ae0d-43ef-4514-9c03-63778473d889")
-		)
-		(pin "4"
-			(uuid "3c98ee6d-ebc5-4318-bafa-dac49a204991")
-		)
-		(pin "3"
-			(uuid "c6ad33b7-c8f4-43a7-908c-4e389b798851")
-		)
-		(pin "2"
-			(uuid "cfb5eb45-bc06-4d9a-b462-d5e167d0b0cc")
-		)
-		(pin "5"
-			(uuid "ebd170cf-a091-41c9-a848-94b2b09e94ea")
-		)
-		(pin "8"
-			(uuid "768b0fc1-a817-43a2-816a-2df293e82f8f")
-		)
-		(pin "6"
-			(uuid "f2b7d376-7de9-4a83-90a0-cc3b319def52")
-		)
-		(pin "1"
-			(uuid "d2954496-bb64-4180-ae6a-9c25db84f986")
-		)
-		(instances
-			(project ""
-				(path "/6efd0fb4-7299-48f2-8981-0dd9ffd897cd"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x14")
 		(at 248.92 135.89 0)
 		(unit 1)
@@ -6991,7 +6932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
 			(at 248.92 135.89 0)
 			(effects
 				(font
@@ -7097,7 +7038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.072 88.9 90)
 			(effects
 				(font
@@ -7167,7 +7108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 51.562 44.45 90)
 			(effects
 				(font
@@ -7237,7 +7178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 31.242 44.45 90)
 			(effects
 				(font
@@ -7641,7 +7582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 163.83 144.78 0)
 			(effects
 				(font
@@ -7996,7 +7937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 89.662 26.67 90)
 			(effects
 				(font
@@ -8198,7 +8139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 29.972 134.62 90)
 			(effects
 				(font
@@ -8620,7 +8561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.122 88.9 90)
 			(effects
 				(font
@@ -8690,7 +8631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.022 88.9 90)
 			(effects
 				(font
@@ -8727,6 +8668,73 @@
 			(project "Cube pcb"
 				(path "/6efd0fb4-7299-48f2-8981-0dd9ffd897cd"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70bae39b-b6f0-4a6c-805a-dfb97a8bb697")
+		(property "Reference" "#PWR048"
+			(at 151.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a702a9b4-da23-40e6-8e92-b94bb35bd594")
+		)
+		(instances
+			(project "Cube pcb"
+				(path "/6efd0fb4-7299-48f2-8981-0dd9ffd897cd"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8970,7 +8978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 65.532 181.61 90)
 			(effects
 				(font
@@ -9040,7 +9048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.122 134.62 90)
 			(effects
 				(font
@@ -9110,7 +9118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 29.972 116.84 90)
 			(effects
 				(font
@@ -9180,7 +9188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.072 116.84 90)
 			(effects
 				(font
@@ -9383,7 +9391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.582 181.61 90)
 			(effects
 				(font
@@ -9519,7 +9527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.022 71.12 90)
 			(effects
 				(font
@@ -9799,7 +9807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 29.972 88.9 90)
 			(effects
 				(font
@@ -9869,7 +9877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.022 134.62 90)
 			(effects
 				(font
@@ -9939,7 +9947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.582 163.83 90)
 			(effects
 				(font
@@ -10076,7 +10084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.022 116.84 90)
 			(effects
 				(font
@@ -10222,7 +10230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 131.7752 67.31 0)
 			(effects
 				(font
@@ -10292,7 +10300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.122 71.12 90)
 			(effects
 				(font
@@ -10362,7 +10370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 89.662 44.45 90)
 			(effects
 				(font
@@ -10466,6 +10474,97 @@
 			(project "Cube pcb"
 				(path "/6efd0fb4-7299-48f2-8981-0dd9ffd897cd"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x09")
+		(at 162.56 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bccfef79-77fe-4259-8366-eaaa6b6a5cd0")
+		(property "Reference" "J1"
+			(at 165.1 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x09 ( conector 1)"
+			(at 165.1 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbd8b048-de9a-434e-8350-cdfd352e3bde")
+		)
+		(pin "3"
+			(uuid "9b474e03-830b-4321-82d9-3727367b88d3")
+		)
+		(pin "5"
+			(uuid "066c1482-2703-4e73-94f2-1c58f0b869d8")
+		)
+		(pin "7"
+			(uuid "882c9435-0372-48b0-ae47-0b5f81d1116d")
+		)
+		(pin "4"
+			(uuid "c7a0c613-db24-4184-bcc6-0c6e67ece576")
+		)
+		(pin "8"
+			(uuid "84f5f8f7-538c-4a49-8cb1-06e2d2ca99a2")
+		)
+		(pin "1"
+			(uuid "7a1bf3c1-2dea-45f5-8293-edcd75bb58e3")
+		)
+		(pin "6"
+			(uuid "e0ae1986-9ead-4e2f-b3d5-651b0909df33")
+		)
+		(pin "9"
+			(uuid "f0a11777-3da3-4dce-a998-9dc73eded4aa")
+		)
+		(instances
+			(project ""
+				(path "/6efd0fb4-7299-48f2-8981-0dd9ffd897cd"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10681,6 +10780,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3b7ffbe-5572-4927-9c1e-196ffed8a175")
+		(property "Reference" "#PWR047"
+			(at 151.13 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9362589e-c382-4ab1-9417-8b392cb9b9d9")
+		)
+		(instances
+			(project "Cube pcb"
+				(path "/6efd0fb4-7299-48f2-8981-0dd9ffd897cd"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 67.31 163.83 0)
 		(unit 1)
@@ -10708,7 +10874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 65.532 163.83 90)
 			(effects
 				(font
@@ -11140,7 +11306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 29.972 71.12 90)
 			(effects
 				(font
@@ -11210,7 +11376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 70.612 44.45 90)
 			(effects
 				(font
@@ -11387,94 +11553,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 162.56 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de52c71f-92a8-4430-8505-418c45447acf")
-		(property "Reference" "J2"
-			(at 165.1 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08 ( conector 2)"
-			(at 165.1 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 162.56 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "dfbf15e3-463b-4360-99e9-a341038cd3d5")
-		)
-		(pin "5"
-			(uuid "776916d9-b0ea-4af6-8cf6-171104f5376c")
-		)
-		(pin "4"
-			(uuid "baed1e10-91b0-4cc5-8630-4a2a6bf7bba9")
-		)
-		(pin "1"
-			(uuid "e92aa893-347a-47a1-90b6-e2d0a6a5b00d")
-		)
-		(pin "2"
-			(uuid "797191ed-46eb-40cb-9889-0f2d3c1ab31b")
-		)
-		(pin "3"
-			(uuid "65dc07af-3c67-4854-98b1-adec007fc762")
-		)
-		(pin "8"
-			(uuid "6b1c3b91-5953-4629-88a7-2c8dbdd319ad")
-		)
-		(pin "7"
-			(uuid "0dbf1be0-69a5-4110-bc15-081d656af709")
-		)
-		(instances
-			(project ""
-				(path "/6efd0fb4-7299-48f2-8981-0dd9ffd897cd"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 72.39 26.67 0)
 		(unit 1)
@@ -11502,7 +11580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 70.612 26.67 90)
 			(effects
 				(font
@@ -11572,7 +11650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 45.212 181.61 90)
 			(effects
 				(font
@@ -11642,7 +11720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.122 116.84 90)
 			(effects
 				(font
@@ -11788,7 +11866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 24.892 181.61 90)
 			(effects
 				(font
@@ -12309,7 +12387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 145.7452 67.31 0)
 			(effects
 				(font
@@ -12379,7 +12457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.072 134.62 90)
 			(effects
 				(font
@@ -12416,6 +12494,97 @@
 			(project "Cube pcb"
 				(path "/6efd0fb4-7299-48f2-8981-0dd9ffd897cd"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x09")
+		(at 162.56 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeed2354-1460-4d34-acb5-ee5e7ec75392")
+		(property "Reference" "J2"
+			(at 165.1 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x09 ( conector 2)"
+			(at 165.1 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
+			(at 162.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52cae185-1c23-4240-83fa-2c310e5e1f13")
+		)
+		(pin "3"
+			(uuid "7a4cff8c-1e33-48d2-927f-e6487255179e")
+		)
+		(pin "5"
+			(uuid "ae91eeeb-577a-4c8e-8cf6-5818e70601ee")
+		)
+		(pin "7"
+			(uuid "1dbf9ca8-e123-4c88-9810-114b89fde556")
+		)
+		(pin "4"
+			(uuid "627cab34-93b5-4b3b-88f3-7a8eff2f4bda")
+		)
+		(pin "8"
+			(uuid "60c28c40-0024-4545-95d1-c7161e0f0a5f")
+		)
+		(pin "1"
+			(uuid "ec655d53-e335-48dc-9ec0-77341f17b398")
+		)
+		(pin "6"
+			(uuid "f36fc7b7-0fac-4d6e-aff5-634ebc0fe79a")
+		)
+		(pin "9"
+			(uuid "834d8a8a-1f3f-41c5-a88e-34434a48548c")
+		)
+		(instances
+			(project "Cube pcb"
+				(path "/6efd0fb4-7299-48f2-8981-0dd9ffd897cd"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12515,7 +12684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.072 71.12 90)
 			(effects
 				(font
@@ -12719,7 +12888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 31.242 26.67 90)
 			(effects
 				(font
