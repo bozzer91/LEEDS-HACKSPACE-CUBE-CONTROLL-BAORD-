@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"_3, _2, ",,3,,
+A1,RaspberryPi_Pico_Common_Unspecified,1,RaspberryPi_Pico,
+"C1, C10, C2, C3, C4, C5, C6, C7, C8, C9",0805,10,100nF,
+J1,PinHeader_1x09_P2.54mm_Vertical,1,Conn_01x09 ( conector 1),
+J2,PinHeader_1x09_P2.54mm_Vertical,1,Conn_01x09 ( conector 2),
+J3,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02 ( exstra ground conectors ),
+J4,PinHeader_1x14_P2.54mm_Vertical,1,Conn_01x14 ( Spare Ports ),
+"Q1, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9",SOT-23,16,BSS138,
+"R1, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R2, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R3, R30, R31, R32, R4, R5, R6, R7, R8, R9",0805,32,10k,

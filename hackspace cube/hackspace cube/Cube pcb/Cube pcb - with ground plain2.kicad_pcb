@@ -20520,7 +20520,7 @@
 		)
 	)
 	(gr_text "CONNECTOR-1"
-		(at 77 76 270)
+		(at 79 79.5 270)
 		(layer "F.SilkS")
 		(uuid "1b48a93b-d634-45f9-8bed-3b50584e5749")
 		(effects
@@ -21168,7 +21168,7 @@
 		)
 	)
 	(gr_text "CONNECTOR-2"
-		(at 77 101.5 270)
+		(at 79 103.5 270)
 		(layer "F.SilkS")
 		(uuid "a6284a49-81a4-4ef3-b9e3-5337070acd79")
 		(effects
