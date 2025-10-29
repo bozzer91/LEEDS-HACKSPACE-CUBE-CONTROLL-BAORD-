@@ -14,8 +14,10 @@ THE PCB LAYOUT( WORK IN PROGRESS)
 PCB 3d render( work in progress )
 <img width="589" height="361" alt="image" src="https://github.com/user-attachments/assets/db3f9b39-870b-49e6-b611-4cecf2b246ea" />
 
+
 Board info :
 reference : 
+
 <img width="410" height="185" alt="image" src="https://github.com/user-attachments/assets/037a5baa-88a5-4cd2-a080-db8536f1b04d" />
 <img width="498" height="307" alt="image" src="https://github.com/user-attachments/assets/8ad4bd95-3504-4625-a62d-42cd72a1be35" />
 as the above says the test points for the DATA and GPIO are as follows.
