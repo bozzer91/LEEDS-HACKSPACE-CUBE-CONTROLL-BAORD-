@@ -20543,7 +20543,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO13"
+	(gr_text "GPIO13"
 		(at 132 113.5 0)
 		(layer "F.SilkS")
 		(uuid "1e8a97e6-be0e-445f-8f20-b90c6ac0b0b1")
@@ -20567,7 +20567,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO10"
+	(gr_text "GPIO10"
 		(at 99 112 0)
 		(layer "F.SilkS")
 		(uuid "20c5b6be-e153-488a-8fcb-d9226f7fbabd")
@@ -20603,7 +20603,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO1"
+	(gr_text "GPIO1"
 		(at 104 68 0)
 		(layer "F.SilkS")
 		(uuid "25c8de03-2fd4-4e36-a111-fbebb37f1fcd")
@@ -20651,7 +20651,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO15"
+	(gr_text "GPIO15"
 		(at 120 113.5 0)
 		(layer "F.SilkS")
 		(uuid "30f1f72b-a949-494f-8e5d-6b63001393d6")
@@ -20723,7 +20723,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO0"
+	(gr_text "GPIO0"
 		(at 110 68 0)
 		(layer "F.SilkS")
 		(uuid "3dcacc32-29c7-4735-8e1d-bb5a8a311f00")
@@ -20783,7 +20783,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO3"
+	(gr_text "GPIO3"
 		(at 93 68 0)
 		(layer "F.SilkS")
 		(uuid "4d4d5e21-90a8-49f5-915d-c51a839a58e1")
@@ -20879,7 +20879,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO11"
+	(gr_text "GPIO11"
 		(at 93 112 0)
 		(layer "F.SilkS")
 		(uuid "5ee55782-10af-40a1-a74a-6ea13ffa097f")
@@ -20891,7 +20891,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO6"
+	(gr_text "GPIO6"
 		(at 104 86 0)
 		(layer "F.SilkS")
 		(uuid "612b7884-225c-4458-812e-91e5beb8cdd3")
@@ -20963,7 +20963,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO8\n"
+	(gr_text "GPIO8\n"
 		(at 110 112 0)
 		(layer "F.SilkS")
 		(uuid "6cd9f89d-6d7f-4ff1-a860-626f2ae8f36b")
@@ -21047,7 +21047,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO9"
+	(gr_text "GPIO9"
 		(at 105 112 0)
 		(layer "F.SilkS")
 		(uuid "85d6582d-784a-41ad-86b8-06fb20a883ba")
@@ -21059,7 +21059,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO5\n"
+	(gr_text "GPIO5\n"
 		(at 98.5 86 0)
 		(layer "F.SilkS")
 		(uuid "88ea2788-0640-4355-91b7-71732bbfe596")
@@ -21107,7 +21107,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO7"
+	(gr_text "GPIO7"
 		(at 109 86 0)
 		(layer "F.SilkS")
 		(uuid "935b077d-29c2-49d4-8f02-7eb6c9082a06")
@@ -21131,7 +21131,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO2"
+	(gr_text "GPIO2"
 		(at 98.5 68 0)
 		(layer "F.SilkS")
 		(uuid "9904131d-80e1-4f2f-8ef3-409aab1d4b0c")
@@ -21203,7 +21203,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO12"
+	(gr_text "GPIO12"
 		(at 138 113.5 0)
 		(layer "F.SilkS")
 		(uuid "baada13f-6b6f-4d30-836e-0e655597a24b")
@@ -21215,7 +21215,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO14"
+	(gr_text "GPIO14"
 		(at 126 113.5 0)
 		(layer "F.SilkS")
 		(uuid "c3979918-6785-42d4-aeae-4cc888d0c84b")
@@ -21335,7 +21335,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GIPO4"
+	(gr_text "GPIO4"
 		(at 93 86 0)
 		(layer "F.SilkS")
 		(uuid "d33da67a-a74c-4416-8bed-5a5cbdebe6ea")
@@ -21467,7 +21467,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "          REFF FOR BAORD \nD- = DATA THEN LINE OUPUT NUMBER\n1  = A NUMBER BY ITS LEFT NEXT TO THE \nPICO LABLES THE GPIO NUMBER OF THAT PIN\n                TEST POINTS\nGPIO = RIGHT OF RESISTER \nD-   = LEFT OF THE RESISTER\n"
+	(gr_text "          REF FOR BOARD \nD- = DATA THEN LINE OUPUT NUMBER\n1  = A NUMBER BY ITS LEFT NEXT TO THE \nPICO LABLES THE GPIO NUMBER OF THAT PIN\n                TEST POINTS\nGPIO = RIGHT OF RESISTOR \nD-   = LEFT OF THE RESISTOR\n"
 		(at 146 126 0)
 		(layer "F.SilkS")
 		(uuid "f65d1797-ef18-447a-82ac-84d8b682fac0")
@@ -21539,7 +21539,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "PCB DESIGNED BY SAMSON B \nLEEDS HACKSPACE CUBE CONTROLL BAORD\nCAN BE FOUND ON GITHUB AT \nwww.github.com/bozzer91\nIF NOT ON LEEDS HACKSPACE GITHUB \nLICENCE: OPEN SOURCE"
+	(gr_text "PCB DESIGNED BY SAMSON B \nLEEDS HACKSPACE CUBE CONTROL BOARD\nCAN BE FOUND ON GITHUB AT \nwww.github.com/bozzer91\nIF NOT ON LEEDS HACKSPACE GITHUB \nLICENCE: OPEN SOURCE"
 		(at 166.5 127.5 0)
 		(layer "B.SilkS")
 		(uuid "f2b64b99-4b3f-4f7f-9996-758ea1426c69")
