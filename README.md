@@ -28,8 +28,8 @@ see below for the visual.
 <img width="241" height="725" alt="image" src="https://github.com/user-attachments/assets/9a7bb0d7-c4b5-4c08-8607-8333cef3c763" />
 
 
-Spare pin header :
-The pin header by pins 16-28 are spare for future expansion of the cube there are extra GND to the right of this.
+<Spare pin header :
+The pin header by pins 16-28 are spare for future expansion of the cube there are extra GND to the right of this./>
 
 <img width="588" height="152" alt="image" src="https://github.com/user-attachments/assets/a5db5426-c5de-4d6b-a94a-5990e6ef0a3f" />
 
