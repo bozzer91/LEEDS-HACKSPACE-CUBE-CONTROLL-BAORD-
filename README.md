@@ -4,7 +4,7 @@
 
 THE PCB LAYOUT( WORK IN PROGRESS)
 <img width="1148" height="632" alt="image" src="https://github.com/user-attachments/assets/0d93c348-367d-49d9-9c0b-a839852f3dbf" />
-<img width="498" height="307" alt="image" src="https://github.com/user-attachments/assets/e7e4700a-1885-40a7-9fe1-3fac98155041" />
+
 
 PCB 3d render( work in progress )
 
@@ -34,7 +34,7 @@ Smothing caps :
 there are smoothing caps on the main voltage rails for 5v and 3v3 when it leaves the pico and then one set pure set of logic shiters.
 
 <img width="432" height="402" alt="image" src="https://github.com/user-attachments/assets/b3219247-ba2a-41fa-92d5-3ea5f70891ba" />
-
+<img width="498" height="307" alt="image" src="https://github.com/user-attachments/assets/e7e4700a-1885-40a7-9fe1-3fac98155041" />
 
 
 THIS IS A WIRE DIRAGRAM FOR THE HACKSPACE BIG CUBE CONTROL BAORD 
