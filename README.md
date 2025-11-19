@@ -5,7 +5,7 @@ This READ me is a work in progress, please check back soon  :
 
 
 THE PCB LAYOUT( WORK IN PROGRESS)
-<img width="1148" height="632" alt="image" src="https://github.com/user-attachments/assets/0d93c348-367d-49d9-9c0b-a839852f3dbf" />
+<img width="574" height="316" alt="image" src="https://github.com/user-attachments/assets/0d93c348-367d-49d9-9c0b-a839852f3dbf" />
 
 
 PCB 3d render( work in progress )
