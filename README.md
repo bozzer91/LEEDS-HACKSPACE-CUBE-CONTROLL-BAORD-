@@ -1,5 +1,7 @@
 # LEEDS HACKSPACE CUBE CONTROLL BOARD
 
+This READ me is a work in progress, please check back soon  :
+
 
 
 THE PCB LAYOUT( WORK IN PROGRESS)
