@@ -1,6 +1,7 @@
 # LEEDS HACKSPACE CUBE CONTROLL BOARD
 
-This READ me is a work in progress, please check back soon  :
+# This READ me is a work in progress, please check back soon  :
+
 This repository is for the new control board for the Leeds hackspace Cube art installation, this board will take input from a pc and output commands to the 16 Lines of addressable LEDS at 5v logic.  
 
 <img width="402" height="251" alt="image" src="https://github.com/user-attachments/assets/368b161a-b8c6-44ab-8492-208775e14491" /><img width="323" height="207" alt="image" src="https://github.com/user-attachments/assets/fe021a87-1833-4190-ae8a-52cd3438f9b9" />
@@ -27,42 +28,48 @@ This control board is designed to take a Raspberry pi pico / pico-W and convert 
 
 
 The test points for the DATA and GPIO are as follows.
-Data: to the left-hand side of the resistor above the label.
-GPIO: test point to the right-hand side of the resistor below the labelling.
+Data: to the left-hand side of the resistor above " D-1 example " the label. the left hand side is 5v
+
+GPIO: test point to the right-hand side of the resistor below the labelling. with the left hand side being 3v3 volts
+
 see below for the visual.
 
 <img width="241" height="725" alt="image" src="https://github.com/user-attachments/assets/9a7bb0d7-c4b5-4c08-8607-8333cef3c763" />
 
 
-Spare pin header :
-The pin header by pins 16-28 are spare for future expansion of the cube there are extra GND to the right of this.
+
+
+### Spare pin header :
+The pin header by pins 16-28 are spare for future expansion of the cube the numbers listed on the PCB are the GPIO numbers of the pico. There are extra GND pins to the right of this pin header.
 
 <img width="588" height="152" alt="image" src="https://github.com/user-attachments/assets/a5db5426-c5de-4d6b-a94a-5990e6ef0a3f" />
 
-Smothing caps :
-there are smoothing caps on the main voltage rails for 5v and 3v3 when it leaves the pico and then one set pure set of logic shiters.
+### Smothing caps :
+there are smoothing caps on the main voltage rails for 5v and 3v3 these are set at locations around the board first set next to the pico and then one set pure bank of 4 logic shifters. ( see below images for examples )
 
 <img width="432" height="402" alt="image" src="https://github.com/user-attachments/assets/b3219247-ba2a-41fa-92d5-3ea5f70891ba" />
 
 
 <img width="205" height="145" alt="image" src="https://github.com/user-attachments/assets/55308101-48d3-4244-9840-cda3a05797be" />
 
+### Main outputs : 
+The controller board has two main Data output connectors in the form of two sets of pinheaders to connect to the users connector of choice this also mimicked the original breadboard design and allows for drop in replacement if required using the original ribbon cables. 
 
-THIS IS A WIRE DIRAGRAM FOR THE HACKSPACE BIG CUBE CONTROL BAORD 
+Connector 1 = Data 1-8 plus one GND pin
+Connector 2 = Data 9-16 plus one GND pin
 
-THIS WORK IS TO REPLACE THE OLD BREAD BOARD ( SEE BELOW LINK ) WITH A SIMPLE PCB FOR CONTROLLING THE BIG CUBE 
+[insert photo here /////]
+
+### Power : 
+This controller board is powered by the Pico's usb input port. 
+
+
+## History of this project: 
+
+So some history of this project. back in 2022 ( give or take a covid lockdown ) it was found that the original micro controller board for the cube had broken. work was undertaken to revers engineer this board and make a replacement for 2022 Leeds lightweight. roll on to 2025 and we are still using the fear inducing Bread board that looks like something you find in a suite case in a mission impossible film that needs defusing ( see below image ) so when packing down the cube i decided to make a pcb to replace this and help move the Cube to a more user friendly plug and play design. 
+
+
 BREAD BOARD 
 ![IMG_2710](https://github.com/user-attachments/assets/d3698fc7-a4cd-495c-b639-95eeb6295c4a)
 
-THE PCB WILL HAVE TWO CONECTORS FOR THE CUBE THIS IS DATA LINE 1-8 AND 9-16 IT WILL ALSO HAVE TWO EXTRA EARTH CONECTORS. 
-I HAVE ALSO ADDED OPTIONAL SMOOTH CAPS ON THE POWER LINES TO THE LOGIC LEVEL CONVERTERS ON BOTH THE 3V3 ND 5V RAILES ONE SET BY THE PICO AND THE OTHER SET HALF WAY ALONE THE POWER LINE. 
-THIS WILL HOPFULLY HELP STOP AND ISSUES WITH ANY NOISE ON THE POWER RAILS 
 
-
-
-
-
-
-
-BIG CUBE 
-![IMG_2693](https://github.com/user-attachments/assets/81c77e6a-e804-4cc5-9f33-17d74d97d4d2)
