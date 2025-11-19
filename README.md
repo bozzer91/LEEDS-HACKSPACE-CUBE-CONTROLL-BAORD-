@@ -35,7 +35,9 @@ Smothing caps :
 there are smoothing caps on the main voltage rails for 5v and 3v3 when it leaves the pico and then one set pure set of logic shiters.
 
 <img width="432" height="402" alt="image" src="https://github.com/user-attachments/assets/b3219247-ba2a-41fa-92d5-3ea5f70891ba" />
-<img width="498" height="307" alt="image" src="https://github.com/user-attachments/assets/e7e4700a-1885-40a7-9fe1-3fac98155041" />
+
+
+<img width="205" height="145" alt="image" src="https://github.com/user-attachments/assets/55308101-48d3-4244-9840-cda3a05797be" />
 
 
 THIS IS A WIRE DIRAGRAM FOR THE HACKSPACE BIG CUBE CONTROL BAORD 
