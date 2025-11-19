@@ -4,7 +4,7 @@
 
 This repository is for the new control board for the Leeds hackspace Cube art installation, this board will take input from a pc and output commands to the 16 Lines of addressable LEDS at 5v logic.  
 
-<img width="402" height="251" alt="image" src="https://github.com/user-attachments/assets/368b161a-b8c6-44ab-8492-208775e14491" /><img width="323" height="207" alt="image" src="https://github.com/user-attachments/assets/fe021a87-1833-4190-ae8a-52cd3438f9b9" />
+<img width="402" height="251" alt="image" src="https://github.com/user-attachments/assets/368b161a-b8c6-44ab-8492-208775e14491" /><img width="330" height="251" alt="image" src="https://github.com/user-attachments/assets/fe021a87-1833-4190-ae8a-52cd3438f9b9" />
 
 wiring diagram visualisation ( not final revision) 
 
