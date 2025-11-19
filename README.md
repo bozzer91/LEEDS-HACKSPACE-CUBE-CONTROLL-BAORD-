@@ -58,10 +58,13 @@ The controller board has two main Data output connectors in the form of two sets
 Connector 1 = Data 1-8 plus one GND pin
 Connector 2 = Data 9-16 plus one GND pin
 
-[insert photo here /////]
+<img width="152" height="270" alt="image" src="https://github.com/user-attachments/assets/808801f8-8beb-47bc-9ac5-812c2c846ad8" />
+<img width="151" height="279" alt="image" src="https://github.com/user-attachments/assets/a271330b-e0dc-4df1-aa4c-8b0c212fbe10" />
+
 
 ### Power : 
 This controller board is powered by the Pico's usb input port. 
+
 
 
 ## History of this project: 
