@@ -1,24 +1,32 @@
 # LEEDS HACKSPACE CUBE CONTROLL BOARD
 
 This READ me is a work in progress, please check back soon  :
+This repository is for the new control board for the Leeds hackspace Cube art installation, this board will take input from a pc and output commands to the 16 Lines of addressable LEDS at 5v logic.  
 
-
-<img width="805" height="502" alt="image" src="https://github.com/user-attachments/assets/368b161a-b8c6-44ab-8492-208775e14491" />
-
-<img width="1293" height="830" alt="image" src="https://github.com/user-attachments/assets/fe021a87-1833-4190-ae8a-52cd3438f9b9" />
+<img width="402" height="251" alt="image" src="https://github.com/user-attachments/assets/368b161a-b8c6-44ab-8492-208775e14491" /><img width="323" height="207" alt="image" src="https://github.com/user-attachments/assets/fe021a87-1833-4190-ae8a-52cd3438f9b9" />
+wiring diagram visualization ( not final revision) 
 
 <img width="414" height="460" alt="image" src="https://github.com/user-attachments/assets/d3f01a46-f69f-4c2b-ac29-a3edda79f03d" />
 
+( the cube ) 
 
-Board info :
-reference : 
+
+
+## Board info :
+
+### Purpose : 
+This control board is designed to take a Raspberry pi pico / pico-W and convert 16 data lines from 3v3 voltage to 5volt data and output this to the 16 LED strings of the Hackspace Cube. this board also includes extra ports for expansion and other functions for future upgrades. the board is about 10cm by 6cm and is deigned to be placed into an encloser with the users connectors of choice attached and soldered onto the PCB DATA outputs.   
+
+
+
+### Reference text: 
 
 <img width="328" height="257" alt="image" src="https://github.com/user-attachments/assets/778e9361-7bda-4f7c-917e-a38e4b6a62d4" />
 
 <img width="344" height="146" alt="image" src="https://github.com/user-attachments/assets/47dafa98-c270-443b-b109-7c8edf730b17" />
 
 
-as the above says the test points for the DATA and GPIO are as follows.
+The test points for the DATA and GPIO are as follows.
 Data: to the left-hand side of the resistor above the label.
 GPIO: test point to the right-hand side of the resistor below the labelling.
 see below for the visual.
