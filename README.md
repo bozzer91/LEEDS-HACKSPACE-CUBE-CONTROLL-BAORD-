@@ -3,7 +3,8 @@
 This READ me is a work in progress, please check back soon  :
 
 
-<img width="806" height="507" alt="image" src="https://github.com/user-attachments/assets/b5d5b1f0-078d-459d-a21a-dba302246b3e" />
+<img width="805" height="502" alt="image" src="https://github.com/user-attachments/assets/368b161a-b8c6-44ab-8492-208775e14491" />
+
 <img width="1293" height="830" alt="image" src="https://github.com/user-attachments/assets/fe021a87-1833-4190-ae8a-52cd3438f9b9" />
 
 <img width="414" height="460" alt="image" src="https://github.com/user-attachments/assets/d3f01a46-f69f-4c2b-ac29-a3edda79f03d" />
@@ -12,8 +13,10 @@ This READ me is a work in progress, please check back soon  :
 Board info :
 reference : 
 
-<img width="410" height="185" alt="image" src="https://github.com/user-attachments/assets/037a5baa-88a5-4cd2-a080-db8536f1b04d" />
-<img width="498" height="307" alt="image" src="https://github.com/user-attachments/assets/8ad4bd95-3504-4625-a62d-42cd72a1be35" />
+<img width="328" height="257" alt="image" src="https://github.com/user-attachments/assets/778e9361-7bda-4f7c-917e-a38e4b6a62d4" />
+
+<img width="344" height="146" alt="image" src="https://github.com/user-attachments/assets/47dafa98-c270-443b-b109-7c8edf730b17" />
+
 
 as the above says the test points for the DATA and GPIO are as follows.
 Data: to the left-hand side of the resistor above the label.
