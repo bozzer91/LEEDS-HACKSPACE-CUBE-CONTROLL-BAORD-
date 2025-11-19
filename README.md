@@ -46,7 +46,7 @@ The pin header by pins 16-28 are spare for future expansion of the cube the numb
 <img width="588" height="152" alt="image" src="https://github.com/user-attachments/assets/a5db5426-c5de-4d6b-a94a-5990e6ef0a3f" />
 
 ### Smothing caps :
-there are smoothing caps on the main voltage rails for 5v and 3v3 these are set at locations around the board first set next to the pico and then one set pure bank of 4 logic shifters. ( see below images for examples )
+There are 100nf smoothing caps on the main voltage rails for 5v and 3v3 these are set at locations around the board first set next to the pico and then one set pure bank of 4 logic shifters. ( see below images for examples )
 
 <img width="432" height="402" alt="image" src="https://github.com/user-attachments/assets/b3219247-ba2a-41fa-92d5-3ea5f70891ba" />
 
