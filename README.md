@@ -3,14 +3,9 @@
 This READ me is a work in progress, please check back soon  :
 
 
+<img width="806" height="507" alt="image" src="https://github.com/user-attachments/assets/b5d5b1f0-078d-459d-a21a-dba302246b3e" />
+<img width="1293" height="830" alt="image" src="https://github.com/user-attachments/assets/fe021a87-1833-4190-ae8a-52cd3438f9b9" />
 
-THE PCB LAYOUT( WORK IN PROGRESS)
-<img width="574" height="316" alt="image" src="https://github.com/user-attachments/assets/0d93c348-367d-49d9-9c0b-a839852f3dbf" />
-
-
-PCB 3d render( work in progress )
-
-<img width="589" height="361" alt="image" src="https://github.com/user-attachments/assets/db3f9b39-870b-49e6-b611-4cecf2b246ea" />
 
 
 Board info :
